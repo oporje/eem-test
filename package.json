@@ -1,0 +1,19 @@
+{
+  "name": "eem-test",
+  "version": "1.0.0",
+  "description": "Test generation tool for EEM Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hungtruongquoc@github.com/hungtruongquoc/eem-test.git"
+  },
+  "author": "Hung Truong, Randy Hoyt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hungtruongquoc/eem-test/issues"
+  },
+  "homepage": "https://github.com/hungtruongquoc/eem-test#readme"
+}
