@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "setup:dev": "sudo npm link",
-    "cleanup:dev": "sudo npm unlink"
+    "cleanup:dev": "sudo npm unlink && sudo chmod a+w index.js"
   },
   "repository": {
     "type": "git",
@@ -25,15 +25,21 @@
     "clui": "^0.3.6",
     "config": "^1.29.4",
     "configstore": "^3.1.1",
+    "dom-parser": "^0.1.5",
     "figlet": "^1.2.0",
     "glob": "^7.1.2",
     "inquirer": "^5.0.1",
     "lodash": "^4.17.4",
     "minimist": "^1.2.0",
     "simple-git": "^1.89.0",
-    "touch": "^3.1.0"
+    "touch": "^3.1.0",
+    "jsdom": "^11.6.2"
   },
   "bin": {
     "eem-test": "./index.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-google": "^0.9.1"
   }
 }
