@@ -4,7 +4,9 @@
   "description": "Test generation tool for EEM Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup:dev": "sudo npm link",
+    "cleanup:dev": "sudo npm unlink"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
     "chalk": "^2.3.0",
     "clear": "0.0.1",
     "clui": "^0.3.6",
+    "config": "^1.29.4",
     "configstore": "^3.1.1",
     "figlet": "^1.2.0",
     "glob": "^7.1.2",

@@ -7,6 +7,7 @@ const clear = require('clear');
 const figlet = require('figlet');
 const files = require('./lib/files');
 const glob = require('glob');
+const config = require('config');
 
 clear();
 console.log(
